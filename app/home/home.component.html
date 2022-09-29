@@ -1,0 +1,5 @@
+<!-- This HTML is included in my app component via the `templateUrl` property -->
+
+<div *ngFor="let item of listOfItems; let i = index">{{ item }}</div>
+
+<button (click)="addItem()">Add a new item</button>
